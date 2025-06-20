@@ -34,7 +34,7 @@ for day in range(1,4):
 
         # Restocks 2 products per day
         for i in range(2): 
-            # index = sum of day + restocking round number and length of employee name % length of product_list
+            # index = sum of day + restocking round number + length of employee name % length of product_list
             index = (day + i + len(employee)) % len(product_list) 
 
              # product = item at index of product_list
