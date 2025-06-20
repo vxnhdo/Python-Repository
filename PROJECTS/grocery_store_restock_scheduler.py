@@ -51,7 +51,7 @@ for day in range(1,4):
 
             # show 10 units of product was restocked along with the new quantity
             print(f"Restocked 10 units of {product} (New quantity: {products[product][1]})") 
-            
+
 print("\nFinal Inventory")
 # For each product in products dictionary, unpack the price & quantity then print the product name, quantity and price formated
 for product, (price, quantity) in products.items():
